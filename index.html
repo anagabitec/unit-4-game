@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crystal Game</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+</head>
+
+<body id="background">
+     
+<!--beginner of container-->
+<div class="container">
+<!--row for title-->
+    <div class="row text-center">
+        <h1>Crystal Colector</h1>
+
+    </div>
+    <!--row and div for instructions-->
+        <div class="row col-sm-12 text-left">
+            <div>
+             <p>You will be given a random number at the start of the game.</p>
+             <br>
+             <p>There are four crystals below. By clicking on a crystal you will add a scpecific amount of points to your total score. </p>
+             <br>
+             <p>You will win the game by matching your total score to random number, you lose the gamer rif your total score goes above the random number</p>
+             <br>
+             <p>The value of each Crystal is hidden from you until you click on it.</p>
+             <br>
+             <p>Each time when the game starts, the game will change values of the Crystal.</p>
+            </div>
+        </div>
+
+        <!--row for random number -->
+        <div class="row">
+            <div class="col-sm-4 text-center">
+                 <span id="random-number"><h2>Match this Number</h2></span>
+            </div>
+
+            <div class="col-sm-8 text-center">
+                 <span id="wins"><h2>Wins:</h2></span>
+                 <br>
+                 <span id="losses"><h2>Losses:</h2></span>
+            </div>
+        </div>     
+        <!--row Images-->  
+        <div class="row">
+            <div class="col-sm-12">
+                <h3>Start Game by clicking one the crystals bellow:</h3>
+                <br>
+                <button type="button">
+                     <div class="col-md-3" id="crystal1">
+                         <img class="images" src="assets/images/crystal1.jpg">
+                     </div>
+                </button>
+                
+                <button type="button">
+                     <div class="col-md-3" id="crystal2">
+                        <img class="images" src="assets/images/crystal2.jpg">
+                     </div>
+                </button>
+            
+                <button type="button">
+                     <div class="col-md-3" id="crystal3">
+                        <img class="images" src="assets/images/crystal3.jpg" >
+                     </div>
+                </button>
+
+                <button type="button">
+                    <div class="col-md-3" id="crystal4">
+                       <img class="images" src="assets/images/crystal4.png">
+                    </div>
+               </button>
+   
+
+
+            </div>
+              
+        </div>
+        
+       
+        
+    <!--div container-->
+    </div>
+    
+    
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+</html>
